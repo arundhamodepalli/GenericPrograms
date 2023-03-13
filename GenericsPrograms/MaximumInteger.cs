@@ -230,6 +230,8 @@ namespace GenericsPrograms
 
     }
 
+    //Print Max Output Added
+
     public class GenericPrintMax<T>
     {
 
@@ -244,11 +246,12 @@ namespace GenericsPrograms
                 ar[i] = Convert.ToDouble(Console.ReadLine());
 
             }
-            PrintMax<double>(ar);
+            PrintMax(ar);
 
 
 
         }
+
 
         public static void PrintMax<T>(T[] ar)
         {
@@ -260,4 +263,3 @@ namespace GenericsPrograms
 
     }
 }
-

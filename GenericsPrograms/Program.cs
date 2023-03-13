@@ -7,7 +7,7 @@
             String exit = "n";
             while (exit == "n")
             {
-                Console.WriteLine("Enter \n 1)Maximum among three Non Generic \n 2) Maximum among three using generic \n 3)Maximum among Multiple Inputs ");
+                Console.WriteLine("Enter \n 1)Maximum among three Non Generic \n 2) Maximum among three using generic \n 3)Maximum among Multiple Inputs \n 4) Print Max output");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -21,7 +21,7 @@
                     case 3://Maximum among more than three using generics
                         MultipleInputs multipleInputs = new MultipleInputs();
                         break;
-                    case 4://Printmax with output
+                    case 4://Printmax with output added
                         GenericPrintMax<double> printMax = new GenericPrintMax<double>();
                         break;
                     default: Console.WriteLine("Enter Valid option"); break;
@@ -32,6 +32,7 @@
                 exit = Convert.ToString(Console.ReadLine());
 
             }
+
 
 
 
