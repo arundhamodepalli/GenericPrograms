@@ -6,6 +6,7 @@
         {
             int maxInt;
             double maxFloat;
+            String maxString;
             //To find Greatest among 3 number
             //T.C1 Max at first Position
             maxInt = MaximumInteger.MaxNumCheck(4, 3, 2);
@@ -28,6 +29,18 @@
             //T.C3 Max at third Position
             maxFloat = MaximumInteger.MaximumFloatCheck(4.4, 2.2, 6.6);
             Console.WriteLine("The greater Float among 4.4, 2.2, 6.6 is " + maxFloat);
+
+            Console.WriteLine("The greatest among Strings");
+            //Maximum among three Strings
+            //T.C1 Max at first Position
+            maxString = MaximumInteger.MaximumStringCheck("c", "b", "a");
+            Console.WriteLine("The greater Float among \"a\", \"b\", \"c\" is " + maxString);
+            //T.C2 Max at second Position
+            maxString = MaximumInteger.MaximumStringCheck("D", "F", "E");
+            Console.WriteLine("The greater Float among \"D\", \"F\", \"E\" is " + maxString);
+            //T.C3 Max at third Position
+            maxString = MaximumInteger.MaximumStringCheck("J", "K", "L");
+            Console.WriteLine("The greater Float among \"J\", \"K\", \"L\" is " + maxString);
 
 
 
